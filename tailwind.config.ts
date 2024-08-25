@@ -9,6 +9,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      // these are breakpoint import from mantine ui
+      screens: {
+        xm: '576px',
+        sm: '768px',
+        md: '992px',
+        lg: '1200px',
+        xl: '1400px',
+        '2xl': '1536px',
+      },
+      colors: {},
       container: {
         center: true,
         padding: {
@@ -22,7 +32,6 @@ const config: Config = {
           '2xl': '1400px',
         },
       },
-      colors: {},
       backgroundImage: {},
     },
   },
